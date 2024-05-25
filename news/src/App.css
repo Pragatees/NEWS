@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Poppins;
+  flex-direction: column;
+  padding: 30px;
+  
+}
+.grid-main{
+   display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+}
+
+.grid-child{
+  border: 1px solid gray;
+  padding: 20px;
+  
+}
+.news-image {
+  width: 75%;
+  height: auto;
+  max-width: 100%;
+  display: block; /* Ensures the image is treated as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+.news-tit{
+  font-size: 25px;
+  font-weight: 600;
+}
+.news-content{
+  font-size: 16px;
+}
+.news-author{
+  font-style: italic;
+  font-size: 14px;
+}
+.news-date{
+  font-size: 14px;
+}
+.space-bet{
+  display:flex;
+  justify-content: space-between;
+}
+.select{
+  margin: 20px;
+  gap: 10px;
+ align-items: center;
+ justify-content: space-between;
+ width: 400px;
+}
+.select-box{
+  width:200px;
+  height: 40px;
+}
